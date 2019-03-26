@@ -485,7 +485,7 @@ class Ship(pygame.sprite.Sprite):
         if len(hit_list) > 0:
             self.shield -= 1
 
-        if self.shield == 3:
+        if self.shield >= 3:
             self.image = ship_img
         elif self.shield == 2:
             self.image = ship_img2
