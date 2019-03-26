@@ -37,6 +37,7 @@ FONT_LG = pygame.font.Font("assets/fonts/Singo.ttf", 64)
 FONT_XL = pygame.font.Font("assets/fonts/Singo.ttf", 96)
 
 WEAPON_TXT = pygame.font.Font("assets/fonts/Bigspace.ttf", 96)
+FLEET_TXT = pygame.font.Font("assets/fonts/Bigspace.ttf", 32)
 # Images
 ship_img = pygame.image.load('assets/images/player.png').convert_alpha()
 ship_img2 = pygame.image.load('assets/images/player_damaged.png').convert_alpha()
@@ -589,7 +590,7 @@ def spawn_powerup():
         powerups.add(powerup)
 
 def show_sheild_bar(shield):
-    for s, loc in zip(range(shield), [0, 100, 200]):
+    for s, loc in zip(range(shield), [0, 100, 200, 300, 400, 500]):
         screen.blit(shield_img, [loc, 0])
 
 def show_stats(player):
@@ -613,7 +614,13 @@ def show_weapon_txt(weapon):
     w = text.get_width()
 
     screen.blit(text, [(SIZE[0]/2 - w/2), 400])
-        
+
+def display_fleet_no(fleet_no):
+    fleet_txt = FLEET_TXT.render("Level: " + str(fleet_no), 1, RED)
+    w = fleet_txt.get_width()
+
+    screen.blit(fleet_txt, [WIDTH - w-150, 20])
+    
 def show_title_screen():
     title_text = FONT_XL.render("!Eldritch Shooter!", 1, RED)
     w = title_text.get_width()
@@ -734,6 +741,7 @@ while not done:
     bombs.draw(screen)
     powerups.draw(screen)
     show_sheild_bar(ship.shield)
+    display_fleet_no(fleet_no)
 
     if display_clock > 0:
         show_weapon_txt(ship.weapon)
