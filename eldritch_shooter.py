@@ -593,9 +593,6 @@ def show_sheild_bar(shield):
     for s, loc in zip(range(shield), [0, 100, 200, 300, 400, 500]):
         screen.blit(shield_img, [loc, 0])
 
-def show_stats(player):
-    pass
-
 def draw_background():
     screen.blit(background_img, [0, 0])
 
@@ -653,10 +650,13 @@ def show_dead_screen():
 
 def draw_mov_limit():
     pygame.draw.line(screen, RED, [0,HEIGHT-205], [WIDTH, HEIGHT-205], 5)
+
     
 def setup():
     global stage, done, player, ship, bullets, mobs, fleet, bombs, powerups
-    
+    global fleet_no
+    ''' Begin at First Level '''
+    fleet_no = 1
     ''' Make game objects '''
     ship = Ship(935, 900, ship_img)
 
@@ -692,15 +692,22 @@ while not done:
             elif stage == PLAYING:
                 if event.key == pygame.K_SPACE:
                     ship.shoot()
+            elif stage == END or stage == DEAD:  
+                if event.key == pygame.K_r:
+                    setup()
 
     
     # Game logic (Check for collisions, update points, etc.)
-
-    # player movment
+    
     pressed = pygame.key.get_pressed()
-    if fleet_no == 16:
-        stage = END
 
+    # Detect Game End
+    
+    if fleet_no == 17:
+        stage = END
+        
+    # Player Movment
+    
     if stage == PLAYING:
         
         if pressed[pygame.K_LEFT]:
@@ -712,7 +719,9 @@ while not done:
             ship.move_up() 
         elif pressed[pygame.K_DOWN]:
             ship.move_down()
-
+            
+    # Core Game Functions
+    
         if stage == PLAYING and ship.shield > 0:
             ship.update()
             bullets.update()
@@ -724,20 +733,19 @@ while not done:
             ship.procces_powerups()
             
             if ship.shield <= 0:
-                stage = DEAD    
-
+                stage = DEAD
+                
     # fleet handling
     if len(fleet) <= 0 and fleet_no < len(fleets)+1:
         fleet_no += 1
         prep_fleet(fleets[fleet_no-1], mobs)
         
-        
     # Drawing code (Describe the picture. It isn't actually drawn yet.)
-    #draw_background()
+    draw_background()
     
-    screen.fill(BLACK)
-    draw_grid(50, WHITE)
-    draw_grid(200, GREEN)
+    #screen.fill(BLACK)
+    #draw_grid(50, WHITE)
+    #draw_grid(200, GREEN)
     
     bullets.draw(screen)
     player.draw(screen)
