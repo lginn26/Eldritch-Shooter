@@ -176,5 +176,35 @@ fleet15 = [
     ['s', 850, 400],
     ]
 
-fleets = [fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
-fleet13, fleet14, fleet15,]
+fleet16 = [
+    ["cb", 400, 100],
+    ["cb", 800, 100],
+    ["cb", 1200, 100],
+    ["ts", 380, 250],
+    ["ts", 780, 250],
+    ["ts", 1180, 250],
+    ["ts", 380, 350],
+    ["ts", 780, 350],
+    ["ts", 1180, 350],
+    ]
+
+fleet17 = [
+    ["cb", 400, 100],
+    ["cb", 800, 100],
+    ["cb", 1200, 100],
+    ["ts", 400, 250],
+    ["ts", 600, 250],
+    ["ts", 800, 250],
+    ["ts", 1000, 250],
+    ["ts", 1200, 250],
+    ["ts", 1400, 250],
+    ["ts", 400, 350],
+    ["ts", 600, 350],
+    ["ts", 800, 350],
+    ["ts", 1000, 350],
+    ["ts", 1200, 350],
+    ["ts", 1400, 350],
+    ]
+
+fleets = [fleet17, fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
+fleet13, fleet14, fleet15, fleet16]
