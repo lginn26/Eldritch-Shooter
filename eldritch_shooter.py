@@ -651,6 +651,9 @@ def show_dead_screen():
     screen.blit(ending_text, [(SIZE[0]/2 - w/2), 400])
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
+def draw_mov_limit():
+    pygame.draw.line(screen, RED, [0,HEIGHT-205], [WIDTH, HEIGHT-205], 5)
+    
 def setup():
     global stage, done, player, ship, bullets, mobs, fleet, bombs, powerups
     
@@ -730,10 +733,11 @@ while not done:
         
         
     # Drawing code (Describe the picture. It isn't actually drawn yet.)
-    draw_background()
-    #screen.fill(BLACK)
-    #draw_grid(50, WHITE)
-    #draw_grid(200, GREEN)
+    #draw_background()
+    
+    screen.fill(BLACK)
+    draw_grid(50, WHITE)
+    draw_grid(200, GREEN)
     
     bullets.draw(screen)
     player.draw(screen)
@@ -742,6 +746,7 @@ while not done:
     powerups.draw(screen)
     show_sheild_bar(ship.shield)
     display_fleet_no(fleet_no)
+    draw_mov_limit()
 
     if display_clock > 0:
         show_weapon_txt(ship.weapon)
