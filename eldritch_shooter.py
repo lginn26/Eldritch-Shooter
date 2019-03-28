@@ -497,7 +497,7 @@ class Ship(pygame.sprite.Sprite):
 
         if self.shield <= 0:
             stage = DEAD
-            self.kill()
+            self.image = ship_img4
 
 class Fleet():
     def __init__(self, mobs):
@@ -630,7 +630,7 @@ def show_title_screen():
 
 def show_end_screen():
     ending_text = FONT_XL.render("!Nightmares Eradicated!", 1, RED)
-    lower_text = FONT_LG.render("!Victory!", 1, RED)
+    lower_text = FONT_LG.render("!Press R to restart!", 1, RED)
 
     w = ending_text.get_width()
     w2 = lower_text.get_width()
@@ -640,7 +640,7 @@ def show_end_screen():
 
 def show_dead_screen():
     ending_text = FONT_XL.render("!You have Perished!", 1, RED)
-    lower_text = FONT_LG.render("!You Lost!", 1, RED)
+    lower_text = FONT_LG.render("!Press R to restart!", 1, RED)
 
     w = ending_text.get_width()
     w2 = lower_text.get_width()
@@ -649,7 +649,7 @@ def show_dead_screen():
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
 def draw_mov_limit():
-    pygame.draw.line(screen, RED, [0,HEIGHT-205], [WIDTH, HEIGHT-205], 5)
+    pygame.draw.line(screen, RED, [65 ,HEIGHT-205], [WIDTH-65, HEIGHT-205], 5)
 
     
 def setup():
@@ -695,6 +695,7 @@ while not done:
             elif stage == END or stage == DEAD:  
                 if event.key == pygame.K_r:
                     setup()
+                    pygame.mixer.music.rewind()
 
     
     # Game logic (Check for collisions, update points, etc.)
