@@ -709,7 +709,7 @@ while not done:
 
     # Detect Game End
     
-    if fleet_no == 17:
+    if fleet_no == len(fleets):
         stage = END
         
     # Player Movment
