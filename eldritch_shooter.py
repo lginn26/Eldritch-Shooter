@@ -546,6 +546,11 @@ class Fleet():
         self.move()
         self.choose_bomber()
 
+        for mob in self.mobs:
+            if mob.rect.bottom > HEIGHT-195:
+                ship.shield = 0
+                
+
     def __len__(self):
         return len(mobs)
     
