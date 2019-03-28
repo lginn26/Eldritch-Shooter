@@ -206,5 +206,5 @@ fleet17 = [
     ["ts", 1400, 350],
     ]
 
-fleets = [fleet17, fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
-fleet13, fleet14, fleet15, fleet16]
+fleets = [fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
+fleet13, fleet14, fleet15, fleet16, fleet17]
