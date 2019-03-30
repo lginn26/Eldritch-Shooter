@@ -568,6 +568,8 @@ def draw_grid(scale, color, width=SIZE[0], height=SIZE[1]):
         pygame.draw.line(screen, color, [0, y], [width, y], 1)
 
 def prep_fleet(prefleet, mobs):
+    '''Unpacks lists within eldritch_fleets and converts them into mobs.'''
+
     for mob in prefleet:
         if mob[0] == "b":
             mobs.add(Mob(mob[1], mob[2], enemy_img))
@@ -581,6 +583,8 @@ def prep_fleet(prefleet, mobs):
         
 
 def spawn_powerup():
+    '''Spawns powerups at random at the top of the screen.'''
+
     chance = random.randint(1, 1000)
     if chance == 500:
         powerup_choice = random.choice([["b", powerup_b_img], ["sg", powerup_sg_img], ["pu", powerup_pu_img],
@@ -589,19 +593,25 @@ def spawn_powerup():
         if powerup_choice[0] == "shield":
             powerup = Shield_Up(random.randint(0, WIDTH), 0, powerup_choice[1])
         else:
-            powerup = Power_Up(random.randint(0, WIDTH), 0, powerup_choice[0], powerup_choice[1])
+            powerup = Power_Up(random.randint(100, WIDTH-100), 0, powerup_choice[0], powerup_choice[1])
             
 
         powerups.add(powerup)
 
 def show_sheild_bar(shield):
+    '''Shows the number of hits the player has left in the top left corner. '''
+
     for s, loc in zip(range(shield), [0, 100, 200, 300, 400, 500]):
         screen.blit(shield_img, [loc, 0])
 
 def draw_background():
+    '''Draws the background image'''
+
     screen.blit(background_img, [0, 0])
 
 def show_weapon_txt(weapon):
+    '''Shows text on the screen when a powerup is picked up, to let the player know which weapon they aquired'''
+
     if weapon == "b":
         text = WEAPON_TXT.render("!9mm Cannon!", 1, RED)
     elif weapon == "sg":
@@ -618,12 +628,16 @@ def show_weapon_txt(weapon):
     screen.blit(text, [(SIZE[0]/2 - w/2), 400])
 
 def display_fleet_no(fleet_no):
+    '''Displays the level number in the top right corner'''
+
     fleet_txt = FLEET_TXT.render("Level: " + str(fleet_no), 1, RED)
     w = fleet_txt.get_width()
 
     screen.blit(fleet_txt, [WIDTH - w-150, 20])
     
 def show_title_screen():
+    '''Shows the title screen'''
+
     title_text = FONT_XL.render("!Eldritch Shooter!", 1, RED)
     w = title_text.get_width()
 
@@ -634,6 +648,8 @@ def show_title_screen():
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
 def show_end_screen():
+    '''Shows the game over screen when the player wins'''
+
     ending_text = FONT_XL.render("!Nightmares Eradicated!", 1, RED)
     lower_text = FONT_LG.render("!Press R to restart!", 1, RED)
 
@@ -644,6 +660,8 @@ def show_end_screen():
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
 def show_dead_screen():
+    '''Shows the game over screen when the player looses'''
+
     ending_text = FONT_XL.render("!You have Perished!", 1, RED)
     lower_text = FONT_LG.render("!Press R to restart!", 1, RED)
 
@@ -654,6 +672,8 @@ def show_dead_screen():
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
 def draw_mov_limit():
+    "Draws movement limit boundry"
+
     pygame.draw.line(screen, RED, [65 ,HEIGHT-205], [WIDTH-65, HEIGHT-205], 5)
 
     
