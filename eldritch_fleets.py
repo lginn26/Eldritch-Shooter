@@ -286,9 +286,11 @@ fleet20 = [
     ['ts', 1025, 450],
     ['s', 270, 225],
     ['s', 470, 450],
+    ['s', 1470, 225],
+    ['s', 1270, 450],
     ]
 
-fleets = [fleet20, fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
-fleet13, fleet14, fleet15, fleet16, fleet17, fleet18, fleet19,]
+fleets = [fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
+fleet13, fleet14, fleet15, fleet16, fleet17, fleet18, fleet19, fleet20]
 
 
