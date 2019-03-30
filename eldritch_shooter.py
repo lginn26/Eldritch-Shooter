@@ -709,7 +709,7 @@ while not done:
 
     # Detect Game End
     
-    if fleet_no == len(fleets):
+    if fleet_no == len(fleets) and len(fleet) == 0:
         stage = END
         
     # Player Movment
@@ -742,16 +742,16 @@ while not done:
                 stage = DEAD
                 
     # fleet handling
-    if len(fleet) <= 0 and fleet_no < len(fleets)+1:
+    if len(fleet) <= 0 and fleet_no < len(fleets)+1 and fleet_no != len(fleets):
         fleet_no += 1
         prep_fleet(fleets[fleet_no-1], mobs)
         
     # Drawing code (Describe the picture. It isn't actually drawn yet.)
-    draw_background()
+    #draw_background()
     
-    #screen.fill(BLACK)
-    #draw_grid(50, WHITE)
-    #draw_grid(200, GREEN)
+    screen.fill(BLACK)
+    draw_grid(50, WHITE)
+    draw_grid(200, GREEN)
     
     bullets.draw(screen)
     player.draw(screen)
