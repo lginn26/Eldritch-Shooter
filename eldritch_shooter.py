@@ -767,11 +767,11 @@ while not done:
         prep_fleet(fleets[fleet_no-1], mobs)
         
     # Drawing code (Describe the picture. It isn't actually drawn yet.)
-    #draw_background()
+    draw_background()
     
-    screen.fill(BLACK)
-    draw_grid(50, WHITE)
-    draw_grid(200, GREEN)
+    #screen.fill(BLACK)
+    #draw_grid(50, WHITE)
+    #draw_grid(200, GREEN)
     
     bullets.draw(screen)
     player.draw(screen)
