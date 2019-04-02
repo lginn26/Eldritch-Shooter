@@ -404,7 +404,7 @@ class Ship(pygame.sprite.Sprite):
         self.speed = 5
         self.bullet_limit = 1
 
-        self.weapon = "b"
+        self.weapon = "pu"
         
     def move_left(self):
         self.rect.x -= self.speed
@@ -441,9 +441,9 @@ class Ship(pygame.sprite.Sprite):
                     bullet.rect.centery = self.rect.top
                     bullets.add(bullet)
             elif self.weapon == "pu":
-                bullet1 = Bullet(self.rect.x+15, self.rect.y, 1, 0, bullet_img)
-                bullet2 = Bullet(self.rect.x+5, self.rect.y+10, 1, 0, bullet_img)
-                bullet3 = Bullet(self.rect.x+35, self.rect.y+10, 1, 0, bullet_img)
+                bullet1 = Bullet(self.rect.centerx-70, self.rect.y, 1, 0, bullet_img)
+                bullet2 = Bullet(self.rect.centerx-25, self.rect.y-10, 1, 0, bullet_img)
+                bullet3 = Bullet(self.rect.centerx+25, self.rect.y, 1, 0, bullet_img)
 
                 bulletlist = [bullet1, bullet2, bullet3]
                 for b in bulletlist:
