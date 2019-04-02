@@ -8,6 +8,7 @@ Controls:
 
 ARROW KEYS to steer your ship(You can move in all directions).
 SPACE to shoot.
+press P while in game to pause.
 
 Gameplay:
 
