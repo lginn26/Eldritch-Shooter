@@ -404,7 +404,7 @@ class Ship(pygame.sprite.Sprite):
         self.speed = 5
         self.bullet_limit = 1
 
-        self.weapon = "pu"
+        self.weapon = "b"
         
     def move_left(self):
         self.rect.x -= self.speed
