@@ -92,6 +92,7 @@ START = 0
 PLAYING = 1
 DEAD = 3
 END = 2
+PAUSE = 4
 
 fleet_no = 1 
 # Power Ups
@@ -659,6 +660,12 @@ def show_end_screen():
     screen.blit(ending_text, [(SIZE[0]/2 - w/2), 400])
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
+def show_pause_screen():
+    pause_txt = WEAPON_TXT.render("P A U S E D", 1, RED)
+    w = pause_txt.get_width()
+
+    screen.blit(pause_txt, [(SIZE[0]/2 - w/2), 400])
+
 def show_dead_screen():
     '''Shows the game over screen when the player looses'''
 
@@ -717,6 +724,13 @@ while not done:
             elif stage == PLAYING:
                 if event.key == pygame.K_SPACE:
                     ship.shoot()
+                elif event.key == pygame.K_p:
+                    stage = PAUSE
+                    pygame.mixer.music.pause()
+            elif stage == PAUSE:
+                if event.key == pygame.K_p:
+                    stage = PLAYING
+                    pygame.mixer.music.unpause()
             elif stage == END or stage == DEAD:  
                 if event.key == pygame.K_r:
                     setup()
@@ -788,10 +802,12 @@ while not done:
     
     if stage == START:
         show_title_screen()
-    if stage == END:
+    elif stage == END:
         show_end_screen()
-    if stage == DEAD:
+    elif stage == DEAD:
         show_dead_screen()
+    elif stage == PAUSE:
+        show_pause_screen()
         
         
 
