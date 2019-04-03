@@ -661,6 +661,7 @@ def show_end_screen():
     screen.blit(lower_text, [(SIZE[0]/2 - w2/2), 490])
 
 def show_pause_screen():
+    '''Shows the pause screen when the game is paused'''
     pause_txt = WEAPON_TXT.render("P A U S E D", 1, RED)
     w = pause_txt.get_width()
 
@@ -735,6 +736,8 @@ while not done:
                 if event.key == pygame.K_r:
                     setup()
                     pygame.mixer.music.rewind()
+            elif event.key == pygame.K_ESCAPE:
+                done = True
 
     
     # Game logic (Check for collisions, update points, etc.)
@@ -775,7 +778,7 @@ while not done:
             if ship.shield <= 0:
                 stage = DEAD
                 
-    # fleet handling
+    # fleet/level handling
     if len(fleet) <= 0 and fleet_no < len(fleets)+1 and fleet_no != len(fleets):
         fleet_no += 1
         prep_fleet(fleets[fleet_no-1], mobs)
