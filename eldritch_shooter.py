@@ -719,7 +719,9 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.KEYDOWN:
-            if stage == START:
+            if event.key == pygame.K_ESCAPE:
+                done = True
+            elif stage == START:
                 if event.key == pygame.K_SPACE:
                     stage = PLAYING
             elif stage == PLAYING:
@@ -736,8 +738,7 @@ while not done:
                 if event.key == pygame.K_r:
                     setup()
                     pygame.mixer.music.rewind()
-            elif event.key == pygame.K_ESCAPE:
-                done = True
+                      
 
     
     # Game logic (Check for collisions, update points, etc.)
