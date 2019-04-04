@@ -331,11 +331,9 @@ class Mob_Sniper(pygame.sprite.Sprite):
     def drop_bomb(self):
         s_shoot.play()
 
-        x_velocity = (ship.rect.x - self.rect.x) // 100
+        x_velocity = (ship.rect.x - self.rect.x) // 100 
         y_velocity = (ship.rect.y - self.rect.y) // 100
 
-        print(str(x_velocity) + " " + str(y_velocity))
-        
         bomb = Bomb(self.rect.x, self.rect.y, y_velocity, x_velocity, bomb_s_img)
         
         bomb.rect.centerx = self.rect.centerx
@@ -787,10 +785,6 @@ while not done:
     # Drawing code (Describe the picture. It isn't actually drawn yet.)
     draw_background()
     
-    #screen.fill(BLACK)
-    #draw_grid(50, WHITE)
-    #draw_grid(200, GREEN)
-    
     bullets.draw(screen)
     player.draw(screen)
     mobs.draw(screen)
@@ -813,8 +807,6 @@ while not done:
     elif stage == PAUSE:
         show_pause_screen()
         
-        
-
         
     # Update screen (Actually draw the picture in the window.)
     pygame.display.flip()
