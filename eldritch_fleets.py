@@ -1,8 +1,4 @@
 
-test = [
-    ['s', 1000, 200]
-    ]
-
 fleet1 = [
     ['b', 400, 350],
     ['b', 800, 350],
@@ -405,7 +401,7 @@ fleet25 = [
     ['ts',1300 , 500],
     ['ts',1500 , 500]
     ]
-fleets = [test, fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
+fleets = [fleet1, fleet2, fleet3, fleet4, fleet5, fleet6, fleet7, fleet8, fleet9, fleet10, fleet11, fleet12,
 fleet13, fleet14, fleet15, fleet16, fleet17, fleet18, fleet19, fleet20, fleet21, fleet22, fleet23,
 fleet24, fleet25]
 
