@@ -327,14 +327,28 @@ class Mob_Sniper(pygame.sprite.Sprite):
         self.rect.x = x
         self.rect.y = y
         self.health = 3
+        self.bulletspeed = 10
 
+    def get_target(self, ship):
+
+        # Get Hypotenus
+        xdirr = ship.rect.centerx - self.rect.centerx
+        ydirr = ship.rect.centery - self.rect.bottom
+
+        hyp = math.sqrt(xdirr**2 + ydirr**2)
+
+        xvector = (xdirr/hyp) * self.bulletspeed
+        yvector = (ydirr/hyp) * self.bulletspeed
+
+        return [xvector, yvector]
+        
+    
     def drop_bomb(self):
         s_shoot.play()
 
-        x_velocity = (ship.rect.x - self.rect.x) // 100 
-        y_velocity = (ship.rect.y - self.rect.y) // 100
+        target = self.get_target(ship)
 
-        bomb = Bomb(self.rect.x, self.rect.y, y_velocity, x_velocity, bomb_s_img)
+        bomb = Bomb(self.rect.x, self.rect.y, target[1], target[0], bomb_s_img)
         
         bomb.rect.centerx = self.rect.centerx
         bomb.rect.centery = self.rect.bottom
