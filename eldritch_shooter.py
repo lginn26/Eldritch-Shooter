@@ -93,7 +93,7 @@ PLAYING = 1
 DEAD = 3
 END = 2
 PAUSE = 4
-#comment
+
 fleet_no = 1 
 # Power Ups
 class Shield_Up(pygame.sprite.Sprite):
