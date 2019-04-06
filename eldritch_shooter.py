@@ -17,6 +17,7 @@ screen = pygame.display.set_mode(SIZE)
 pygame.display.set_caption(TITLE)
 
 #coment
+#coment
 
 # Timer
 clock = pygame.time.Clock()
