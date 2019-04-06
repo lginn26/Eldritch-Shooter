@@ -16,6 +16,7 @@ TITLE = "Eldritch Shooter"
 screen = pygame.display.set_mode(SIZE)
 pygame.display.set_caption(TITLE)
 
+#coment
 
 # Timer
 clock = pygame.time.Clock()
