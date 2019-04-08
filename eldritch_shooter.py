@@ -13,8 +13,9 @@ WIDTH = 1870
 HEIGHT = 1000 
 SIZE = (WIDTH, HEIGHT)
 TITLE = "Eldritch Shooter"
-screen = pygame.display.set_mode(SIZE)
+screen = pygame.display.set_mode(SIZE, pygame.FULLSCREEN)
 pygame.display.set_caption(TITLE)
+
 
 # Timer
 clock = pygame.time.Clock()
