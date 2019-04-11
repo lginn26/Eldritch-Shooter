@@ -6,15 +6,15 @@ galaxy of this threat. However, all the men who have been sent have
 never returned. Will you end up the same way?
 
 ## Controls
-ARROW KEYS to steer your ship(You can move in all directions).
+**ARROW KEYS** to steer your ship*(You can move in all directions)*.
 SPACE to shoot.
 press P while in game to pause.
 
 ## Gameplay
-Destroy every eldritch beast you see.
+Destroy every **eldritch beast** you see.
 Avoid enemy projectiles.
 
-Don't let your shield reach 0.
+Don't let your shield reach **0**.
 Don't let the mobs reach the limit line.
 Collect power ups to improve your weapon and collect shields to rebuild your shield when damaged.
 
