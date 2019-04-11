@@ -46,6 +46,7 @@ press P while in game to pause.
 
 ## Screenshots
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(1).PNG)
+This is the start screen.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(2).PNG)
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(3).PNG)
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(4).PNG)
