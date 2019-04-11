@@ -1,5 +1,3 @@
-# Eldritch Shooter
-
 ## Backstory
 The galaxy was once a peaceful place. Until one day, a portal opened up 
 and from it poured eldritch horrors beyond one's comprehension. The galactic 
