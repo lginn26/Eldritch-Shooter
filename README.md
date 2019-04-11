@@ -31,19 +31,24 @@ press P while in game to pause.
 * Power-ups will fall at random from the top of the screen and will get faster as they decend.
 
 ### Powerups/Weapons
-...* 9mm cannon
-......- This is your starting and most basic weapon.
-...* Shotgun
-......- Will shoot a random spread of four bullets.
-...* Puncher
-......- Will shoot 3 parallel bullets.
-...* Helix Cannon
-......- Bullets will follow a curved path and form a helix.
-...* Rubber Gun
-......- Shoots a spread of 5 bullets that will bounce 4 times around the screen before disappearing. 
-...* Shield Up
-......- Regains 1 shield.
+* 9mm cannon
+- This is your starting and most basic weapon.
+* Shotgun
+- Will shoot a random spread of four bullets.
+* Puncher
+- Will shoot 3 parallel bullets.
+* Helix Cannon
+- Bullets will follow a curved path and form a helix.
+* Rubber Gun
+- Shoots a spread of 5 bullets that will bounce 4 times around the screen before disappearing. 
+* Shield Up
+- Regains 1 shield.
 
 ## Screenshots
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(1).PNG)
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(2).PNG)
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(3).PNG)
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(4).PNG)
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(5).PNG)
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
 
