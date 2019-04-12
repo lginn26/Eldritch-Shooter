@@ -48,8 +48,13 @@ press P while in game to pause.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(1).PNG)
 This is the start screen.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(2).PNG)
+This is your trusty weapon.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(3).PNG)
+This is the mighty Rubber Gun
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(4).PNG)
+These are you power-ups. Your only chance at winning!
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(5).PNG)
+Trust me. It gets worse.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
+If you see these. Abandon all hope.
 
