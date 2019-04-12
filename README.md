@@ -35,7 +35,7 @@ press P while in game to pause.
 - This is your starting and most basic weapon.
 * ![alt text](https://github.com/lginn26/Eldritch-Shooter/blob/master/assets/images/shotgun_powerup.png) Shotgun
 - Will shoot a random spread of four bullets.
-* ![alt text](https://github.com/lginn26/Eldritch-Shooter/blob/master/assets/images/helix_powerup.png) Puncher
+* ![alt text](https://github.com/lginn26/Eldritch-Shooter/blob/master/assets/images/puncher_powerup.png) Puncher
 - Will shoot 3 parallel bullets.
 * ![alt text](https://github.com/lginn26/Eldritch-Shooter/blob/master/assets/images/helix_powerup.png) Helix Cannon
 - Bullets will follow a curved path and form a helix.
