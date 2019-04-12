@@ -27,7 +27,7 @@ never returned. Will you end up the same way?
 * When one fleet is destroyed the next level will begin.
 * Fleets will get more difficult and overwhelming as the levels progress. 
 * There can only be one of your bullets on the screen at a time.
-* Your will have a drag effect every time you fire*(except for certian weapons)*.
+* Your bullets will have a drag effect every time you fire*(except for certian weapons)*.
 * There are four enenmy types which each have a different attack pattern*(Use your 8 directional movement to your advantage)*.
 * Power-ups will fall at random from the top of the screen and will get faster as they decend.
 
@@ -58,4 +58,3 @@ These are you power-ups. Your only chance at winning!
 Trust me. It gets worse.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
 If you see these. Abandon all hope.
-
