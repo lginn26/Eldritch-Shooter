@@ -37,7 +37,7 @@ press P while in game to pause.
 - Will shoot a random spread of four bullets.
 * Puncher
 - Will shoot 3 parallel bullets.
-* Helix Cannon
+* ![alt text](https://github.com/lginn26/Eldritch-Shooter/blob/master/assets/images/bouncer_powerup.png) Helix Cannon
 - Bullets will follow a curved path and form a helix.
 * Rubber Gun
 - Shoots a spread of 5 bullets that will bounce 4 times around the screen before disappearing. 
