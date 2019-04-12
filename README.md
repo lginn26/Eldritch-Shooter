@@ -6,9 +6,10 @@ galaxy of this threat. However, all the men who have been sent have
 never returned. Will you end up the same way?
 
 ## Controls
-**ARROW KEYS** to steer your ship*(You can move in all directions)*.
-SPACE to shoot.
-press P while in game to pause.
+* **ARROW KEYS** to steer your ship*(You can move in all directions)*.
+* SPACE to shoot.
+* press P while in game to pause.
+* ESC to quit
 
 ## Gameplay
 * Destroy every **eldritch beast** you see.
