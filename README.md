@@ -48,12 +48,16 @@ never returned. Will you end up the same way?
 ## Eldritch Beasts
 * Acursed Flesh 
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_basic.png)
+* These... Creatures are the most common ones you will come across. They are pretty pethetic by themselves but they can do some damage in large numbers.
 * Shreiker
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_triplespitter.png)
+* This abomination has a nack for firing a spread of projectiles at random. Remain aware.
 * Dead Eye
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_sniper.png)
+* Unlike the others, this thing prefers precision over blindly spitting projectiles. 
 * Chaos Breaker
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/chaos_breaker.png)
+* Whatever this creature is it sure isn't reality. As a result, it's actions are almost unpredictable. How do you survive them? Hide near the back, then start praying to whatever religion of your choice.
 
 ## Screenshots
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(1).PNG)
