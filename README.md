@@ -45,6 +45,13 @@ never returned. Will you end up the same way?
 * ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/shield_up.png) Shield Up
 - Regains 1 shield.
 
+## Eldritch Beasts
+* 
+* Shreiker
+* Dead Eye
+* Chaos Breaker
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/chaos_breaker.png)
+
 ## Screenshots
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(1).PNG)
 This is the start screen.
@@ -58,3 +65,7 @@ These are you power-ups. Your only chance at winning!
 Trust me. It gets worse.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
 If you see these. Abandon all hope.
+
+## Credits
+All sprites created by Louis Godfrey
+Music - [Body Slam](http://www.soundzabound.com/search?category=All&time_cut=All&title=body+slam) by Soundzabound
