@@ -67,13 +67,13 @@ This is your trusty weapon.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(3).PNG)
 This is the mighty Rubber Gun
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(4).PNG)
-These are you power-ups. Your only chance at winning!
+These are your power-ups. Your only chance at winning!
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(5).PNG)
 Trust me. It gets worse.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
 If you see these. Abandon all hope.
 
-# PLAY NOW
+# [PLAY NOW](https://github.com/lginn26/Eldritch-Shooter/archive/master.zip)
 
 
 ## Credits
