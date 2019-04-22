@@ -51,7 +51,7 @@ never returned. Will you end up the same way?
 * Shreiker
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_triplespitter.png)
 * Dead Eye
-![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_basic.png)
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_sniper.png)
 * Chaos Breaker
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/chaos_breaker.png)
 
