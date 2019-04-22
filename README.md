@@ -74,5 +74,5 @@ Trust me. It gets worse.
 If you see these. Abandon all hope.
 
 ## Credits
-All sprites created by Louis Godfrey
-Music - [Body Slam](http://www.soundzabound.com/search?category=All&time_cut=All&title=body+slam) by Soundzabound
+* All sprites created by Louis Godfrey
+* Music - [Body Slam](http://www.soundzabound.com/category/rock) by Soundzabound
