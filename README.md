@@ -46,9 +46,12 @@ never returned. Will you end up the same way?
 - Regains 1 shield.
 
 ## Eldritch Beasts
-* 
+* Acursed Flesh 
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_basic.png)
 * Shreiker
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_triplespitter.png)
 * Dead Eye
+![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/eldritch_basic.png)
 * Chaos Breaker
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/chaos_breaker.png)
 
