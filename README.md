@@ -73,6 +73,9 @@ Trust me. It gets worse.
 ![alt text](https://raw.githubusercontent.com/lginn26/Eldritch-Shooter/master/assets/images/EldritchShooter(6).PNG)
 If you see these. Abandon all hope.
 
+# PLAY NOW
+
+
 ## Credits
 * All sprites created by Louis Godfrey
 * Music - [Body Slam](http://www.soundzabound.com/category/rock) by Soundzabound
